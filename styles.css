@@ -7,7 +7,6 @@
 
 body{
     font-family: "Montserrat", sans-serif;
-    padding: 1rem;
     box-sizing: border-box;
     text-align: center;
 }
@@ -54,14 +53,12 @@ button{
 
 table{
     margin: auto;
-    max-width: 80%;
+    max-width: 50%;
 }
 
-th{
-    padding: 1rem;
-}
-
-td{
+th,td{
+    width: 0%;
+    border-collapse: collapse;
     padding: 1rem;
     border: 2px solid var(--primary-color);
 }
@@ -69,3 +66,24 @@ td{
 .error{
     color: red;
 }
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 1.5rem;
+}
+ul{
+    padding-left: 0;
+}
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+    width: 40px;
+    padding: 0.2rem;
+  }
