@@ -6,9 +6,11 @@
 }
 
 body{
+    /* width: 80%; */
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
 }
 
 nav{
@@ -31,6 +33,7 @@ label{
 }
 
 input{
+    font-size: large;
     padding: 0.5rem;
     display: block;
     margin: auto;
@@ -52,19 +55,25 @@ button{
 }
 
 table{
+    /* display: table; */
+    border-spacing: 0;
+    width: 40%;
     margin: auto;
-    max-width: 50%;
 }
 
 th,td{
-    width: 0%;
     border-collapse: collapse;
     padding: 1rem;
     border: 2px solid var(--primary-color);
+    font-size: large;
+    font-weight: bold;
 }
 
 .error{
     color: red;
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem;
 }
 
 a{
@@ -86,4 +95,4 @@ li {
 img {
     width: 40px;
     padding: 0.2rem;
-  }
+  } 
