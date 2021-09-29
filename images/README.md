@@ -2,4 +2,4 @@
 
 A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes.
 
-[Live link] ()
+[Live link](https://cash-register-bhargavi.netlify.app/)
