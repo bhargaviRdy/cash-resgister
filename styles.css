@@ -69,6 +69,13 @@ th,td{
     font-weight: bold;
 }
 
+.result{
+    color: green;
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem;
+}
+
 .error{
     color: red;
     font-size: large;
